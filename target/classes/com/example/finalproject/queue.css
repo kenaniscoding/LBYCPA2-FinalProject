@@ -1,0 +1,11 @@
+.box {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-font-size: 18pt;
+    -fx-font-family: "Arial";
+    -fx-padding: 10px;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+    -fx-alignment: center;
+}

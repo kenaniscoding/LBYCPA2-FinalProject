@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject.HelloController">
+   <children>
+      <Label layoutX="173.0" layoutY="26.0" text="Data Structure Visualization">
+         <font>
+            <Font name="System Bold Italic" size="35.0" />
+         </font>
+      </Label>
+      <Button layoutX="117.0" layoutY="104.0" mnemonicParsing="false" onAction="#loadLinkedList" prefHeight="120.0" prefWidth="275.0" text="Linked List">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Button>
+      <Button layoutX="413.0" layoutY="235.0" mnemonicParsing="false" onAction="#loadQueue" prefHeight="120.0" prefWidth="275.0" text="Queue">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="117.0" layoutY="235.0" mnemonicParsing="false" onAction="#loadStack" prefHeight="120.0" prefWidth="275.0" text="Stack">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Button>
+      <Button layoutX="413.0" layoutY="104.0" mnemonicParsing="false" onAction="#loadBST" prefHeight="120.0" prefWidth="275.0" text="Binary Search Tree">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
